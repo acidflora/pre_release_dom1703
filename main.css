@@ -11,7 +11,7 @@ b
     background-image: url('img/logo_1.jpg');
     min-height: 100%;
   }
-  @media only screen and (max-device-width: 1600px) {
+  @media only screen and (max-device-width: 800px) {
     .bgimg-1 {
       background-attachment: scroll;
       min-height: 400px;
