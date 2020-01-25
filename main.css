@@ -1,20 +1,19 @@
-body {
-    font-family: helvetica;
+@font-face 
+{
+  font-family: LogoFont;
+  src: url(logofont.ttf);
+}
+b 
+{
+  color: red;
+}
+.bgimg-1 {
+    background-image: url('img/logo_1.jpg');
+    min-height: 100%;
   }
-  
-  ul {
-    font-family: monospace;
-  }
-  li {
-    list-style: circle;
-  }
-  
-  .list {
-    list-style: square;
-  }
-  
-  #date {
-    font-size: 12px;
-    font-style: italic;
-    font-weight: bold;
+  @media only screen and (max-device-width: 1600px) {
+    .bgimg-1 {
+      background-attachment: scroll;
+      min-height: 400px;
+    }
   }
