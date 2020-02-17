@@ -3,40 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>ДОМ1703</title>
-    <link rel="stylesheet" href="main.css">
+    
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="main.css">
+    
 </head>
 <body>
-    
+
     <div class="w3-top">
         <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-                <a href="main.html" class="w3-bar-item w3-button w3-padding-16">DOM<b>·</b>1703</a>
+                <a href="main.html" class="w3-bar-item w3-button w3-padding-32" >DOM<b>·</b>1703</a>
                 <div class="w3-right w3-hide-small">
-                    <a href="about.html" class="w3-bar-item w3-button w3-padding-16">О нас</a>
-                    <a href="contacts.html" class="w3-bar-item w3-button w3-padding-16">Контакты</a>
+                    <a href="deal.html" class="w3-bar-item w3-button w3-padding-32">Объекты</a>
+                    <a href="about.html" class="w3-bar-item w3-button w3-padding-32">О нас</a>
+                    <a href="contacts.html" class="w3-bar-item w3-button w3-padding-32">Контакты</a>
                 </div>
         </div>
     </div>
     
-    <hr id="home">
-    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:600px">
-        <div class="w3-display-middle">
-            <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
-            <hr class="w3-border-grey" style="margin:auto;width:40%">
-            <p class="w3-large w3-center">01<b> · </b>02<b> · </b>2020</p>
+    <!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:120px;margin-bottom:80px">
+
+    <!-- Slideshow -->
+    <div class="w3-container" >
+      <div class="w3-display-container mySlides">
+        <img src="img/img1.png" style="width:100%">
+        <div class="w3-display-topleft w3-container w3-padding-32">
+          <span class="w3-white w3-padding-large w3-animate-bottom"><b>#</b>интересное предложение <b>1</b></span>
         </div>
+      </div>
+      <div class="w3-display-container mySlides">
+        <img src="img/img2.png" style="width:100%">
+        <div class="w3-display-middle w3-container w3-padding-32">
+          <span class="w3-white w3-padding-large w3-animate-bottom"><b>#</b>интересное предложение <b>2</b></span>
+        </div>
+      </div>
+      <div class="w3-display-container mySlides">
+        <img src="img/img3.png" style="width:100%">
+        <div class="w3-display-topright w3-container w3-padding-32">
+          <span class="w3-white w3-padding-large w3-animate-bottom"><b>#</b>интересное предложение <b>3</b></span>
+        </div>
+      </div>
+  
+      <!-- Slideshow next/previous buttons -->
+      <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+        <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+        <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+      
+        <div class="w3-center">
+          <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+          <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+          <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+      </div>
     </div>
-    </hr>
-    
-    <a href="contact.html" rel="#overlay">
-        <button type="button">Написать сообщение администратору</button>
-    </a>
-    <div class="overlay" id="overlay">
-    <div class="wrap"></div>
+    <!-- <script src="js/app.js"></script> -->
+    <div class="w3-container w3-padding-32 w3-black w3-opacity w3-card w3-hover-opacity-off" style="margin:32px 0;">
+        <h2>Получате лучшие предложения первым!</h2>
+        <p>Оставьте свой контактный телефон и наш сотрудник свяжется с Вами в любое удобное для вас время.</p>
+        <label>Телефон</label>
+        <input class="w3-input w3-border" type="text" placeholder="Ваш контактный телефон + 7 (">
+        <button type="button" class="w3-button w3-red w3-margin-top">Отправить</button>
     </div>
-    <script src="js/app.js"></script>
-   
+
+    <header class="w3-display-container w3-content" style="max-width:1500px;">
+        <img class="w3-image" src="img/img4.jpg" alt="Предложение дня" style="min-width:1000px" width="1500" height="800">
+        <div class="w3-display-left w3-padding w3-col l6 m8">
+
+          <div class="w3-container w3-red">
+            <h2><i class="fa fa-bed w3-margin-right"></i>Предложение дня</h2>
+          </div>
+
+          <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+            <div class="w3-quarter w3-section">
+              <span class="w3-xlarge">2</span><br>
+              Стоимость
+            </div>
+            <div class="w3-quarter w3-section">
+              <span class="w3-xlarge">55</span><br>
+              Метров
+            </div>
+            <div class="w3-quarter w3-section">
+              <span class="w3-xlarge">15</span><br>
+              Минут пешком до метро
+            </div>
+            <div class="w3-quarter w3-section">
+              <span class="w3-xlarge">2020</span><br>
+              Год сдачи
+            </div>
+          </div>
+
+          <button class="w3-button w3-light-grey w3-padding-large ">
+            <b>Отозваться!</b>
+          </button>
+
+        </div>
+      </header>
+
+      <div class="w3-container w3-padding-32">  
+        <footer class="w3-row-padding w3-padding-32 ">
+          <div class="w3-left">
+            <h3>Индивидуальный подход</h3>
+            <a><b>·</b> Покупатели, проживающие за пределами Санкт-Петербурга и Ленинградской области, могут оформить ипотеку, не выезжая из своего региона, у наших банков-партнеров.</a>
+            <h3>Купившим квартиру</h3>
+            <a><b>·</b> С момента заключения договора с нашей компанией до подписания акта приема-передачи на квартиру мы всегда остаемся с Вами на связи. Задавайте любые вопросы, обращайтесь к членам нашей команды за консультацией — мы обязательно найдем ответы.</a>
+            <h3>СВЯЗЬ НАПРЯМУЮ</h3>
+            <ul class="w3-ul w3-hoverable">
+              <li class="w3-padding-16">
+                <img src="img/phone.png" class="w3-left w3-margin-right" style="width:15px">
+                <span class="w3-large">Антон</span><br>
+                <span>+7 (965) 018-88-87</span>
+                <span>Новостройки</span>
+              </li>
+              <li class="w3-padding-16">
+                <img src="img/phone.png" class="w3-left w3-margin-right" style="width:15px">
+                <span class="w3-large">Владислав</span><br>
+                <span>+7 (921) 947-86-79</span>
+                <span>Вторичная недвижимость</span>
+              </li>
+              <li class="w3-padding-16">
+                <img src="img/geo.png" class="w3-left w3-margin-right" style="width:45px">
+                <span class="w3-large">Адрес</span><br>
+                <span>Большая Морская улица, 3-5, Санкт-Петербург</span>
+              </li>
+              <li class="w3-padding-16">
+                <img src="img/mail.png" class="w3-left w3-margin-right" style="width:45px">
+                <span class="w3-large">Почта</span><br>
+                <span>dom1703@gmail.com</span>
+              </li> 
+               
+            </ul>
+        </div>
+        
+            
+      
+          </div>
+
+</div>
+
+
+    <script>
+        // Slideshow
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function currentDiv(n) {
+          showDivs(slideIndex = n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demodots");
+          if (n > x.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = x.length} ;
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-white", "");
+          }
+          x[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " w3-white";
+        }
+        </script>
 </body>
 </html>
